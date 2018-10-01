@@ -1,0 +1,31 @@
+-- Punto 2
+Create tablespace uber datafile 'uber.dbf' size 2000M;
+Create tablespace uber1 datafile 'uber1.dbf' size 200M;
+Create tablespace uber2 datafile 'uber2.dbf' size 200M;
+CREATE BIGFILE TABLESPACE uberbigfile DATAFILE 'uberbigfile.dbf' SIZE 5G;
+CREATE UNDO TABLESPACE uberundo DATAFILE 'uberundo.f' SIZE 25M;
+-- Punto 3
+create user uberdba identified by uberdba default tablespace uber quota unlimited on uber profile default;
+GRANT DBA TO uberdba;
+grant create session to uberdba;
+-- Punto 4
+create profile clerk limit 
+SESSIONS_PER_USER 1
+IDLE_TIME 10
+PASSWORD_LIFE_TIME 40
+failed_login_attempts 4;
+create profile development limit 
+SESSIONS_PER_USER 2
+IDLE_TIME 30
+PASSWORD_LIFE_TIME 100
+failed_login_attempts UNLIMITED;
+-- Punto 5
+create user usuario1 identified by usuario1 default tablespace uber quota unlimited on uber profile clerk;
+create user usuario2 identified by usuario2 default tablespace uber quota unlimited on uber profile clerk;
+create user usuario3 identified by usuario3 default tablespace uber quota unlimited on uber profile development;
+create user usuario4 identified by usuario4 default tablespace uber quota unlimited on uber profile development;
+grant create session to usuario1;
+grant create session to usuario2;
+grant create session to usuario3;
+grant create session to usuario4;
+alter user usuario1 account lock;
