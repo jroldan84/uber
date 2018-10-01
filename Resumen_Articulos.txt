@@ -1,0 +1,32 @@
+¿Quién necesita procedimientos almacenados, de todos modos?
+Estoy seguro de que todos hemos escuchado, una y otra vez, que el SQL en línea es generalmente una mala práctica, y que debemos usar Procedimientos almacenados cuando sea posible. 
+Los procedimientos almacenados están escritos en grandes "idiomas" de bases de datos de como PL / SQL (Oracle) o T-SQL (Microsoft). estos lenguajes se hacen  muy  pesados, lo  que a  diferenia  de  javascript marca una  diferencia, dado  que no  es necesario esribir tanto codigo.  
+Los procedimientos almacenados no proporcionan demasiados comentarios cuando las cosas van mal. A menos que el proceso esté codificado de forma intercalada
+Los procedimientos almacenados no pueden pasar objetos. Entonces, si no tiene cuidado, puede terminar con muchos parámetros.
+por que  utilizar procedimientos  almacenados:
+* generan  mejor  rendimiento  a la  base de datos 
+* se pueden  manejar  de manera  indipendiente, ejm  varios  usuarios  pueden  usar  el  procedimiento  almacenado pero  esos  mismos clientes  no  tienen acceso  a la  tablas que resultan  de este. 
+*se les puede  hacer  mantenimiendo mas  rapido  
+* minimiza el  trafico de la  red por por que las sentenias son  en lotes
+para quien  genero el  articulo las bases de datos modernas y los escenarios de uso del mundo real,  crear que una arquitectura de procedimiento almacenado tiene serias desventajas y pocos beneficios prácticos. Los procedimientos almacenados deben considerarse el lenguaje de ensamblaje de la base de datos: para usar solo en las situaciones críticas de mayor rendimiento . Hay muchas maneras de diseñar una capa de acceso a datos sólida y de alto rendimiento sin recurrir a procedimientos almacenados; obtendrá muchos beneficios si se queda con SQL parametrizado.
+---------------------------------------------------------------------------------------------------------------------------
+Tal vez la normalización no es normal:
+tratan  de que  uno  de los  retos  que tiene en el   ahora  es  como  mantener niveles  de rendimiento en ua base de datos relacional  que  cada  ves  aumenta mas  sus  datos,  esto  partiendo  de un  principio  de que  una  base de  datos  finalizada  debe  estar  ya normalizada.  aunque esto no siempre se  cumple.  
+Dare Obasanjo: genero  una publicacion  sobre normalizacion  donde  anexo  un  diagrama  de  normalizacion  que sirve para redes  sociales, 
+es  de  tener  en  cuenta que  al  normalizar lo  que  se  busca es quitar  duplicidad de  datos  en  la  base. con  esto  se minimiza inconsistencias en los datos. 
+aunque  tambien  es  importante  resaltar que  la  normalizacion no  siempre  es eficiente por  que  a la  hora  de  que la  base  falle  y  se  busque  una  solucion  el  intentar  recuperar  mata la  base, lo  cual  nos  indica   y  como  andres lo explico  en  clase a  veces  es mejor  tener  la  base  desnormalizada.  
+-----------------------------------------------------------------------------------------------------------
+10 Razones Para Considerar Una Base De Datos De Modelos Múltiples:
+teniedo  en  cuenta  que  los modelos  actuales  a veces  no  son  tan  optimos  y generan  un  gran   desgaste para las compañias  en  tiempo y  recursos,  llega un nuevo motor  de  bases  de  datos   que es  el  modelo  multiples, este  permite tener  un  bakend unico  de esta  manera se elimina la  fragmentacion  permitiendo  muchos  productos  y  aplicaciones  diferentes  a la  ves.  
+como  grandes  beneficios  tiene: 
+-1 consolidacion:  al  estar  unificados  los modelos genera  flexibilidad  lo  cual  miniza la  cantidad es  espacio  que se requiere  en  almancenamiento.  
+-2 Escalado De Rendimiento:  cuando la  base  crece  se requier  que el  rendimiento  se  mantenga  o  aumente, en  este  caso  lo  que se  hace  es  que  se  ejecutan  los  paquetes  del  backen  "Horizontalmente"
+-3 Complejidad Operacional: La integración de varios sistemas es un desafío operacional difícil, y tratar de integrarlos en un sistema más amplio y cohesionado que las aplicaciones puedan usar, especialmente cuando se trata de mantener la consistencia de los datos y la tolerancia a fallas, puede ser casi imposible.
+-4 Flexibilidad: Un enfoque multimodelo implica crear  múltiples mapeos de modelos de datos en un único motor de almacenamiento. que puede admitir diferentes casos de uso y aplicaciones. Esto genera un modelado de datos flexible para poder  operar múltiples almacenes de datos.
+-5 Confiabilidad: la confiabilidad es un  tema  muy  importante cuando  se ejecutan  varias  bases de datos  de  manera  aleatoria, por que  se requiere  que todas  tengan  un  desempeño  optimo.  
+6. Consistencia De Los Datos:   teniendo  en  cuenta que  se  tiene  un  unico  sistema  backend  es  importante  tener  consistencia en los  datos,  de lo  contrario  es caso  que  imposible  moler  y  en  un  caso  posterior  unificar la informacion.  
+7.Tolerancia A Fallas: asegurar que   un  sistema  sea  tolerante    a  las  fallas es  casi  que  imposible.  Debido a que cada sistema es diferente y tiene diferentes requisitos, sin embargo, este enfoque lleva mucho tiempo y es costoso. E incluso entonces, la tolerancia a fallas de todo su sistema depende entonces del subsistema más débil en el back-end.
+8.  costo:  Al usar más, los distintos sistemas de bases de datos aumentan los costos según el hardware, el software y las necesidades operativas asociadas con cada sistema. esto  asociado  tambien  al mantenimiento  que se  debe  hacer  en  el  tiempo , 
+9. Transacciones: Los sistemas de bases de datos relacionales, generalmente implementados en una sola máquina, generalmente ofrecen fuertes garantías transaccionales para las operaciones de la base de datos, lo que permitió a las aplicaciones y desarrolladores de aplicaciones comprender con certeza el estado actual de la base de datos en un momento determinado. sin  embargo es todo  un  desafio  realizar transacciones  entre  varias maquinas. 
+10 Mejores Aplicaciones:  una aplicación que es compatible con una base de datos de modelos múltiples obtiene los beneficios de escalabilidad, tolerancia a fallas y en un sistema bien diseñado, alto rendimiento integrado en el producto. 
+para culminar:  los sistemas de modelos múltiples son hacia donde se dirige el mercado de bases de datos: transacciones compatibles con ACID, API de modelos múltiples y motores de almacenamiento compartidos y potentes que pueden cumplir mejor con los requisitos de las aplicaciones más exigentes.
