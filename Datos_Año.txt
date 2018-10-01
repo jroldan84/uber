@@ -1,0 +1,9 @@
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (1,'2011');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (2,'2012');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (3,'2013');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (4,'2014');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (5,'2015');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (6,'2016');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (7,'2017');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (8,'2018');
+INSERT INTO `AÑO` (`ID_Año`,`DescripcionAño`) VALUES (9,'2019');

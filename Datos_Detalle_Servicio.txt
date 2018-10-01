@@ -1,0 +1,112 @@
+DROP TABLE `Detalle_servicio`;
+
+CREATE TABLE `Detalle_servicio` (
+  `id` number primary key,
+  `ID_DetalleServicio` number default NULL,
+  `Tarifa` varchar2(100) default NULL,
+  `ID_MedioPago` number default NULL,
+  `TiempoTotal` varchar2(50) default NULL,
+  `Recorrido` varchar2(50) default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (100,'$37,144',1,394,409);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (101,'$45,087',2,473,787);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (102,'$47,258',3,338,89);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (103,'$30,201',4,771,57);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (104,'$26,112',5,846,830);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (105,'$43,820',6,852,956);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (106,'$32,305',7,513,975);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (107,'$45,576',8,489,180);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (108,'$15,963',9,344,804);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (109,'$30,342',10,37,859);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (110,'$25,676',11,120,592);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (111,'$22,841',12,409,861);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (112,'$32,930',13,737,119);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (113,'$16,886',14,741,577);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (114,'$19,546',15,975,198);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (115,'$22,777',16,455,983);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (116,'$43,716',17,805,462);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (117,'$32,443',18,139,158);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (118,'$32,997',19,165,682);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (119,'$13,630',20,491,740);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (120,'$17,466',21,75,929);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (121,'$34,568',22,111,193);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (122,'$49,726',23,664,779);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (123,'$24,791',24,606,679);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (124,'$9,801',25,338,678);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (125,'$9,787',26,592,619);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (126,'$6,219',27,239,625);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (127,'$44,891',28,439,199);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (128,'$36,587',29,421,189);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (129,'$21,539',30,534,758);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (130,'$29,630',31,868,575);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (131,'$17,415',32,392,504);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (132,'$26,143',33,850,852);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (133,'$27,439',34,153,410);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (134,'$12,515',35,526,529);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (135,'$29,206',36,722,187);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (136,'$9,051',37,347,959);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (137,'$32,027',38,887,853);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (138,'$21,727',39,616,317);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (139,'$8,008',40,842,882);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (140,'$17,454',41,394,53);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (141,'$11,291',42,623,274);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (142,'$37,377',43,735,461);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (143,'$34,029',44,197,789);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (144,'$31,977',45,105,40);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (145,'$37,629',46,25,308);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (146,'$15,612',47,169,854);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (147,'$16,092',48,788,388);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (148,'$44,057',49,139,425);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (149,'$24,367',50,371,604);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (150,'$8,413',51,820,139);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (151,'$38,003',52,510,790);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (152,'$29,198',53,360,228);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (153,'$37,629',54,809,293);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (154,'$40,488',55,962,293);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (155,'$46,652',56,646,328);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (156,'$11,113',57,34,622);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (157,'$8,763',58,228,629);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (158,'$25,013',59,494,768);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (159,'$48,099',60,960,469);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (160,'$17,761',61,241,117);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (161,'$27,019',62,265,413);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (162,'$23,951',63,361,801);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (163,'$33,027',64,358,136);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (164,'$34,282',65,323,352);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (165,'$48,114',66,286,779);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (166,'$20,809',67,472,238);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (167,'$19,362',68,125,620);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (168,'$9,850',69,747,17);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (169,'$18,669',70,381,55);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (170,'$33,352',71,509,718);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (171,'$35,906',72,331,113);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (172,'$11,756',73,642,830);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (173,'$14,171',74,825,405);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (174,'$25,689',75,741,418);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (175,'$39,581',76,508,855);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (176,'$12,762',77,393,337);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (177,'$28,223',78,965,782);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (178,'$6,476',79,606,781);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (179,'$33,770',80,728,505);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (180,'$10,899',81,727,609);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (181,'$36,980',82,363,794);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (182,'$48,891',83,759,167);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (183,'$44,279',84,589,444);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (184,'$8,879',85,275,329);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (185,'$31,020',86,324,481);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (186,'$18,499',87,299,254);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (187,'$12,363',88,139,832);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (188,'$35,701',89,160,924);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (189,'$10,525',90,621,74);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (190,'$32,769',91,312,466);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (191,'$25,243',92,432,821);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (192,'$15,297',93,789,2);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (193,'$36,317',94,700,690);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (194,'$49,326',95,235,524);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (195,'$45,504',96,901,116);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (196,'$40,356',97,21,574);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (197,'$31,835',98,413,769);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (198,'$37,266',99,683,674);
+INSERT INTO `Detalle_servicio` (`ID_DetalleServicio`,`Tarifa`,`ID_MedioPago`,`TiempoTotal`,`Recorrido`) VALUES (199,'$27,122',100,701,424);

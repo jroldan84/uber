@@ -1,0 +1,2 @@
+INSERT INTO `TIPO_DOCUMENTO` (`ID_TipoDocumento`,`DescripcionDocumento`) VALUES (1,'Cédula Ciudadania');
+INSERT INTO `TIPO_DOCUMENTO` (`ID_TipoDocumento`,`DescripcionDocumento`) VALUES (1,'Cédula Extrangeria');
