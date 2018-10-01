@@ -1,3 +1,0 @@
-INSERT INTO `Marca` (`ID_Marca`,`DescripcionMarca`,'ID_Modelo') VALUES (1,'Mazda');
-INSERT INTO `Marca` (`ID_Marca`,`DescripcionMarca`,'ID_Modelo') VALUES (2,'Nissan');
-INSERT INTO `Marca` (`ID_Marca`,`DescripcionMarca`,'ID_Modelo') VALUES (3,'Renault');

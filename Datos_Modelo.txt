@@ -1,7 +1,0 @@
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (1,'Allegro','1');
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (2,'Tiida','2');
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (3,'Qashqai','2');
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (4,'Versa','2');
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (5,'Clio','3');
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (6,'Duster','3');
-INSERT INTO `AÑO` (`ID_Modelo`,`DescripcionModelo`,'ID_Año','ID_Marca') VALUES (7,'Captur','3');
