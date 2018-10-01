@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A47AFA6-97DA-C875-EBCC-F39D55D13A84" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="MODELO">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MODELO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:17 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODELO" id="B3FD7286-8A39-F949-05AC-8378E5E2BF73">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MODELO</sourceObjSchema>
+<sourceObjName>ID_MODELO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIONMODELO" id="D16E0D54-A778-C9BF-7ED0-33CF4865F45D">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MODELO</sourceObjSchema>
+<sourceObjName>DESCRIPCIONMODELO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_AÑO" id="36E6F0E6-B930-6221-F7E9-4F2659F91EA5">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MODELO</sourceObjSchema>
+<sourceObjName>ID_AÑO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDCA200D-59CD-9BBB-D6D3-60512320C493" referredColumn="F646492E-D3B8-5D76-B3C6-CDC5999315CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7F2B0AC-81CB-F84F-7028-66935F38CAD9" name="MODELO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MODELO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FD7286-8A39-F949-05AC-8378E5E2BF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88768033-3DFC-31D5-9099-F730328D8059" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="MODELO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MODELO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FD7286-8A39-F949-05AC-8378E5E2BF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3230099C-D154-4930-1C5D-230AA1EB0D9C" name="FK_ID_AÑO">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36E6F0E6-B930-6221-F7E9-4F2659F91EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

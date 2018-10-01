@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFE4ACCC-850F-29B0-8F15-770B10096ECF" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="TIPO_VEHICULO">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TIPO_VEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:18 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPOVEHICULO" id="7AEEF8EA-C64C-2C81-0BF5-6FD6679A996A">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>TIPO_VEHICULO</sourceObjSchema>
+<sourceObjName>ID_TIPOVEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIONTIPOVEHICULO" id="38EA31A2-FA84-C5EC-EF8A-4F9971C2D9D8">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>TIPO_VEHICULO</sourceObjSchema>
+<sourceObjName>DESCRIPCIONTIPOVEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3FB1A18-27BB-0AB1-505B-D3BDE23820F4" name="TIPO_VEHICULO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TIPO_VEHICULO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AEEF8EA-C64C-2C81-0BF5-6FD6679A996A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B56FBAF-986C-D3E8-31C4-E7EE3600A141" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="TIPO_VEHICULO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TIPO_VEHICULO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AEEF8EA-C64C-2C81-0BF5-6FD6679A996A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

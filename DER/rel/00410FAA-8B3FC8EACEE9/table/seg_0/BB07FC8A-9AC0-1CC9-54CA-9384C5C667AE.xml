@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB07FC8A-9AC0-1CC9-54CA-9384C5C667AE" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="MONEDA">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MONEDA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:18 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MONEDA" id="65F239F6-D100-6DA6-2E49-1B7EA23820D9">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MONEDA</sourceObjSchema>
+<sourceObjName>ID_MONEDA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_MONEDA" id="038FD9CD-3E79-BB49-047D-8FE38E4BEA6E">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MONEDA</sourceObjSchema>
+<sourceObjName>DESCRIPCION_MONEDA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="351E0E95-4609-E344-7C93-C3351726BDD0">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MONEDA</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GEOGRAFIA" id="9D7BCC0F-B7D3-1CE3-7BA9-E376BF33CE69">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>MONEDA</sourceObjSchema>
+<sourceObjName>ID_GEOGRAFIA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC35844F-07B8-9F8B-5CB8-66BAA6FCB607" referredColumn="18451B51-36BC-DBFD-9492-E6AD277BF112"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FA96852-C8C5-3559-9FD5-00E7E4485A66" name="MONEDA_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MONEDA_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F239F6-D100-6DA6-2E49-1B7EA23820D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F87FE09-6041-3D11-ACA9-2778A2CECF57" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="MONEDA_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MONEDA_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F239F6-D100-6DA6-2E49-1B7EA23820D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F85476E7-947D-5A16-9A46-286EFA807CD4" name="FK_ID_GEOGRAFIA_MONEDA">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D7BCC0F-B7D3-1CE3-7BA9-E376BF33CE69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

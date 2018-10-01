@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC4E2B33-5A2B-1846-02EC-FC22E1AC6DFC" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="CLIENTE">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CLIENTE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:17 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="24776458-E170-0D7B-6C83-DE14CAFCDE39">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FD9B517E-2197-0D32-5812-5DBD0384B1C8">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="EAB458F8-284E-AB14-1374-95661EC29F33">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFILE_PHOTO" id="4C8D6F9F-B95F-7982-032D-A741EAE0E6D2">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>PROFILE_PHOTO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LENGUAJE" id="D93FC99A-15F8-4364-38A8-6D358A285FA9">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID_LENGUAJE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A48B18EC-CC7E-BDCE-846C-1AFE73FED92C" referredColumn="80830427-1BB5-DC45-78DC-36E5E73FE3D6"/>
+</associations>
+</Column>
+<Column name="EMAIL_ADRESS" id="35D06407-9DC5-8D8F-C097-36F04923DB8E">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>EMAIL_ADRESS</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_ADRESS_2" id="94B1CD69-989F-1651-7303-41E3433E163E">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>EMAIL_ADRESS_2</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOBILE" id="AE2272FB-DBE4-1442-AB3C-023F009FEC0F">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>MOBILE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GEOGRAFIA" id="F920E062-C708-6B9C-A17B-8E4A31A26F08">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID_GEOGRAFIA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1A31291-6DEC-A8D6-B0AA-C9AB550E54EC" referredColumn="18451B51-36BC-DBFD-9492-E6AD277BF112"/>
+</associations>
+</Column>
+<Column name="INVITE_CODE" id="C68FAC2E-1151-482C-26E4-54729173D487">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>INVITE_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPODOCUMENTO" id="5046674A-BE4E-5587-D3B0-C608E6FFB587">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID_TIPODOCUMENTO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="382A52F5-B5FE-8CC3-E05E-1EAD308179B5" referredColumn="BD20E21F-F663-AE39-15C6-C167AAEAEC07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24B5E831-E48F-D572-1F8A-228FEA9BFCC4" name="CLIENTE_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CLIENTE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:27 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24776458-E170-0D7B-6C83-DE14CAFCDE39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A7FCD21-F1A0-8339-1FAE-D15B5997A34A" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="CLIENTE_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CLIENTE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:22 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24776458-E170-0D7B-6C83-DE14CAFCDE39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2A71554-0B4E-1F59-7E50-1C6FAFA87462" name="FK_ID_GEOGRAFIA">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F920E062-C708-6B9C-A17B-8E4A31A26F08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="532670A9-54DC-3B53-B90F-53160DBA44E5" name="FK_ID_LENGUAJE">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93FC99A-15F8-4364-38A8-6D358A285FA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="937DD534-FC96-7BD0-97F5-821A3F4702B9" name="FK_ID_TIPODOCUMENTO">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5046674A-BE4E-5587-D3B0-C608E6FFB587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

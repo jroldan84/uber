@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEBA7BBC-DF83-283E-365E-F29BE0ED76B6" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="METODO_DE_PAGO">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>METODO_DE_PAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:17 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_METODOPAGO" id="718DC911-BB8C-B004-C33A-61B735A97D18">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>ID_METODOPAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIONMETODOPAGO" id="F46AE384-A442-D5CF-DD09-3006E57B9B7C">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>DESCRIPCIONMETODOPAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EEBCBCD-C27E-43FB-C954-6A03CAD88302" name="METODO_DE_PAGO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>METODO_DE_PAGO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718DC911-BB8C-B004-C33A-61B735A97D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20993CFE-ECDD-7FB9-E890-50F71B401246" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="METODO_DE_PAGO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>METODO_DE_PAGO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718DC911-BB8C-B004-C33A-61B735A97D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

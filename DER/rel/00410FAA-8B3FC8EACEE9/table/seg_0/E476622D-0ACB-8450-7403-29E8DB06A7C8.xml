@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E476622D-0ACB-8450-7403-29E8DB06A7C8" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="LENGUAJE">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>LENGUAJE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:17 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LENGUAJE" id="80830427-1BB5-DC45-78DC-36E5E73FE3D6">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>LENGUAJE</sourceObjSchema>
+<sourceObjName>ID_LENGUAJE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_LENGUAJE" id="4561C2D5-6812-6133-0031-39985B5E0A55">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>LENGUAJE</sourceObjSchema>
+<sourceObjName>DESCRIPCION_LENGUAJE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BE1286D-5D92-BF6A-F18B-F38658F302FE" name="LENGUAJE_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>LENGUAJE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80830427-1BB5-DC45-78DC-36E5E73FE3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D5D1DDD-9BCE-01BD-70E5-AE94BEBA6333" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="LENGUAJE_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>LENGUAJE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80830427-1BB5-DC45-78DC-36E5E73FE3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

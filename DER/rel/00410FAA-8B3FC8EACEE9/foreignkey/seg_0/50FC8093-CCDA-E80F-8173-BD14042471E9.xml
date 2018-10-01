@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50FC8093-CCDA-E80F-8173-BD14042471E9" containerWithKeyObject="5329FE70-DA74-1102-0BE2-648BCDD30DDA" localFKIndex="195CCA00-29DF-5340-BFF6-18FCBA232AF6" name="FK_ID_METODOPAGO">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_ID_METODOPAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<referredTableLongName>SYSTEM.METODO_DE_PAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEBA7BBC-DF83-283E-365E-F29BE0ED76B6</referredTableID>
+<keyObject>9EEBCBCD-C27E-43FB-C954-6A03CAD88302</keyObject>
+<referredKeyID>9EEBCBCD-C27E-43FB-C954-6A03CAD88302</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_METODOPAGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

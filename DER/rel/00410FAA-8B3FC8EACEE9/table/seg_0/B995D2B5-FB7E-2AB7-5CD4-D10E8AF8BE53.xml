@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B995D2B5-FB7E-2AB7-5CD4-D10E8AF8BE53" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="GEOGRAFIA">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>GEOGRAFIA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:17 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GEOGRAFIA" id="18451B51-36BC-DBFD-9492-E6AD277BF112">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>GEOGRAFIA</sourceObjSchema>
+<sourceObjName>ID_GEOGRAFIA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO" id="FD157B7E-4E9F-69AA-BAB1-EAC71E6CFA92">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>GEOGRAFIA</sourceObjSchema>
+<sourceObjName>DEPARTAMENTO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="9044DE10-9A40-B180-4A76-322165FE0088">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>GEOGRAFIA</sourceObjSchema>
+<sourceObjName>PAIS</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUIDAD" id="189CC0FD-14DD-B5AA-6AA3-F3609B7B5CC6">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>GEOGRAFIA</sourceObjSchema>
+<sourceObjName>CUIDAD</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3048AEDB-1DE3-CB86-389A-BE78035BC9A6" name="GEOGRAFIA_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>GEOGRAFIA_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18451B51-36BC-DBFD-9492-E6AD277BF112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D06DCCB-0549-B41D-81EB-4CC34DE78B4E" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="GEOGRAFIA_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>GEOGRAFIA_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18451B51-36BC-DBFD-9492-E6AD277BF112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

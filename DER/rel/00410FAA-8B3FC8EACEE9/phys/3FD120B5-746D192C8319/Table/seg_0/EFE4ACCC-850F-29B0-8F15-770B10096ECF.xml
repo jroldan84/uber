@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIPO_VEHICULO" directorySegmentName="seg_0" id="EFE4ACCC-850F-29B0-8F15-770B10096ECF">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:18 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<schemaObject>B9EAE8AB-B5CA-1831-C326-487F43C5AC9B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AABE61E2-DC30-9846-B5DE-95896EAAC022</segment>
+<tableSpace>21F5E151-4D1C-9B7D-D0C9-8610E6704A6A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPCIONTIPOVEHICULO" id="38EA31A2-FA84-C5EC-EF8A-4F9971C2D9D8">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIPOVEHICULO" id="7AEEF8EA-C64C-2C81-0BF5-6FD6679A996A">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TIPO_VEHICULO_PK" id="3B56FBAF-986C-D3E8-31C4-E7EE3600A141">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<schemaObject>B9EAE8AB-B5CA-1831-C326-487F43C5AC9B</schemaObject>
+<segment>B529A6F6-DFBF-CF50-6015-F68AB54052E2</segment>
+<tableSpace>21F5E151-4D1C-9B7D-D0C9-8610E6704A6A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPO_VEHICULO_PK" id="C3FB1A18-27BB-0AB1-505B-D3BDE23820F4">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<segment>B529A6F6-DFBF-CF50-6015-F68AB54052E2</segment>
+<tableSpace>21F5E151-4D1C-9B7D-D0C9-8610E6704A6A</tableSpace>
+<existingIndex>3B56FBAF-986C-D3E8-31C4-E7EE3600A141</existingIndex>
+<indexSegment>B529A6F6-DFBF-CF50-6015-F68AB54052E2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

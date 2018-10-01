@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="FF0F3C95-1572-6E41-6CDE-C9B1ED1450B9">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:14 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<schemaObject>B9EAE8AB-B5CA-1831-C326-487F43C5AC9B</schemaObject>
+</UserOraclev10g>

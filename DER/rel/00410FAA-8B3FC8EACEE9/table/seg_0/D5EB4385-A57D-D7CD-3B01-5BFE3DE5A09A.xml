@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5EB4385-A57D-D7CD-3B01-5BFE3DE5A09A" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="VEHICULO">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>VEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:18 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VEHICULO" id="485DE14C-56A3-0DB7-04B6-61EDF8FB6E0D">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>VEHICULO</sourceObjSchema>
+<sourceObjName>ID_VEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACA" id="90DB0EC7-357A-C2D0-EBD5-612ED7B371A8">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>VEHICULO</sourceObjSchema>
+<sourceObjName>PLACA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MARCA" id="69643756-E1BC-61C3-B3F1-4772B85BB8AF">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>VEHICULO</sourceObjSchema>
+<sourceObjName>ID_MARCA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="762EE47B-1F3F-4A1F-74B9-06174670AECE" referredColumn="3F560AE9-3B4A-2A33-50BB-926B650DB5B1"/>
+</associations>
+</Column>
+<Column name="DESCRIPCIONVEHICULO" id="3FC03DAA-DDCF-7E37-BC12-7D97504D8912">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>VEHICULO</sourceObjSchema>
+<sourceObjName>DESCRIPCIONVEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPOVEHICULO" id="FB2ABD78-7186-E238-A5DD-C2EED1D66CAD">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>VEHICULO</sourceObjSchema>
+<sourceObjName>ID_TIPOVEHICULO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDC7FE00-9715-B22A-93DA-040E5CC0A611" referredColumn="7AEEF8EA-C64C-2C81-0BF5-6FD6679A996A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26A6D6E1-B33F-C7E0-B4F9-6F9390D3A025" name="VEHICULO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>VEHICULO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="485DE14C-56A3-0DB7-04B6-61EDF8FB6E0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8D6126A-6069-AF84-DA6E-BB72A9F5C6CB" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="VEHICULO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>VEHICULO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="485DE14C-56A3-0DB7-04B6-61EDF8FB6E0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="535312D5-3175-5E69-DAD9-5CFC9E38B00B" name="FK_ID_MARCA">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69643756-E1BC-61C3-B3F1-4772B85BB8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26D63333-B13D-E7CF-8E1C-7342C44B6428" name="FKID_TIPOVEHICULO">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2ABD78-7186-E238-A5DD-C2EED1D66CAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

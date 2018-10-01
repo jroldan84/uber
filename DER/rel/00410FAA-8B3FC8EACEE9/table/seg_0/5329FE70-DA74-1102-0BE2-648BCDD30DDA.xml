@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5329FE70-DA74-1102-0BE2-648BCDD30DDA" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="DATALLE_METODO_DE_PAGO">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DATALLE_METODO_DE_PAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:17 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLEMETODOPAGO" id="8F94BF26-3E52-AC97-A6A5-216761B2A61D">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>DATALLE_METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>ID_DETALLEMETODOPAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_METODOPAGO" id="28A85EB6-CC89-804B-2F85-C28C439D5B5D">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>DATALLE_METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>ID_METODOPAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50FC8093-CCDA-E80F-8173-BD14042471E9" referredColumn="718DC911-BB8C-B004-C33A-61B735A97D18"/>
+</associations>
+</Column>
+<Column name="TIPOMEDIOPAGO" id="1EF970B9-1190-9289-EF97-0AC552C48EEA">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>DATALLE_METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>TIPOMEDIOPAGO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMEROTARJETA" id="68F4DB19-74CD-849E-8BB7-6E04C6703B20">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>DATALLE_METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>NUMEROTARJETA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOSEGURIDADTARJETA" id="BB39CB7E-7387-F548-1634-2D7B50280DC0">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>DATALLE_METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>CODIGOSEGURIDADTARJETA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAVENCIMIENTOTARJETA" id="68B6C3A4-E865-BA85-30D2-8AC6980A6353">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>DATALLE_METODO_DE_PAGO</sourceObjSchema>
+<sourceObjName>FECHAVENCIMIENTOTARJETA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C730D1C-0508-EFC4-6C5A-069FE0C80E48" name="DATALLE_METODO_DE_PAGO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DATALLE_METODO_DE_PAGO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:29 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F94BF26-3E52-AC97-A6A5-216761B2A61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04093D4E-5230-A3FD-D020-3728E26B51E6" schemaObject="B9EAE8AB-B5CA-1831-C326-487F43C5AC9B" name="DATALLE_METODO_DE_PAGO_PK">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DATALLE_METODO_DE_PAGO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F94BF26-3E52-AC97-A6A5-216761B2A61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="195CCA00-29DF-5340-BFF6-18FCBA232AF6" name="FK_ID_METODOPAGO">
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28A85EB6-CC89-804B-2F85-C28C439D5B5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

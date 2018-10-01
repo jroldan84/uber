@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C22FF87-2A4C-F464-1FD5-FC87AD1439FE" containerWithKeyObject="58771971-367E-5FB9-D6EA-423AF9412FE8" localFKIndex="9C1472D9-CA04-7B3C-E8F2-A8CAC0223659" name="FK_ID_TIPODOCUMENTOCONDUCTOR">
+<sourceConnName>Base datos 2018</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_ID_TIPODOCUMENTOCONDUCTOR</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2018-10-01 05:08:30 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<referredTableLongName>SYSTEM.TIPO_DOCUMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11EBB07B-F634-F1A2-467F-7932C344AE4E</referredTableID>
+<keyObject>E1D512E8-DC34-A469-8097-F966DB46E030</keyObject>
+<referredKeyID>E1D512E8-DC34-A469-8097-F966DB46E030</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPODOCUMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
