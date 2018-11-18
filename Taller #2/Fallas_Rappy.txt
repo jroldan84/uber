@@ -1,0 +1,34 @@
+a continuacion  como  alternativa para mostrar los datos en los puntos  1 y  2  utilizaremos  unas  vistas.
+las  cuales  se alimentan  de  unas  tablas  base 
+
+
+
+
+
+Fallas graves en la seguridad de tarjetas de crédito y credenciales en Rappi.
+
+para este caso se tuvo acceso  a  informacion  de rappy  donde  se  logro evidenciar  una falla o  falta de seguridad 
+en el manejo  de  informacion  de los datos de  quienes  hacen  uso  del  pago  electronico de un servicio  obtenido  por 
+medio de  rappy.  lo  cual  nos demuestra que  rapppy no  cuenta con un programa de  bug bounties  y  aca me  quiero
+detener  un  rato  para  explicar  de que se  trata los bounties(explicar). 
+
+las  fallas  presentadas es que se pueden obtener datos personales de los clientes de rappy  en  varios paises , así como datos parciales de sus tarjetas de crédito 
+e identificadores (tokens) en el sistema de almacenamiento. También encontramos errores en el código de inicio de sesiones (login).
+ Es probable que estas fallas pudieran ser usadas para asociar las tarjetas de crédito almacenadas con cuentas de terceros y proceder a realizar cargos no autorizados
+
+en teoria  al  realizar un  pago por  internet  se  supone no  deberiamos tener  complicaciones  si  se  siguen  unos  pasos minimos de seguridad  como  lo  son:
+ingresar  a una pagina que tenga  el  protocolo HTTPS lo cual  nos  garantiza  una  transaccion  cifrada desde  nuestro  equipo  o  movil  a el servidor receptor.
+asi  si alguien  llegara a descifrar la  informacion no le  seria muy  facil  y solo  tendria contraseñas de  inicio  de sesion.  por  esto  se recomienda no  manejar
+la misma contraseña para  todo.  
+
+para una  tarjeta el  tema  es  diferente: dado  que  quien  obtenga  nuestra informacion  de la tarjeta podria hacer  uso  de  esta en  cualquier parte del  mundo
+por  esto  quien  maneje  nuestra informacion  de  la tarjeta  debe tener  altos  estandares de seguridad que  van  mucho  mas alla de cifrar la informacion.
+para esto  existe una certificacion  que no deben  adquirir los paises  sino las  entidades bancarias  PCI DSS (Payment Card Industry Data Security Standard)
+
+debido  a la  gran  cantidad  de  transacciones que ejecuta rappi  deberia cumplir con  este  estandar  dado  que solo  en  bogota  mueve 4 millones de transacciones
+anuales. minimo  deberia tener  un nivel  PCI2.
+
+la falla  de  rappy  es que no  esta  utilizando  el  procesador  de pagor,  el  cual  se  encarga de  hacer  todo  el  proceso  de  recaudo  de la nformacion  y
+recepcion  del pago  y  se encarga de  comunicarle al  comercio(rappy).  
+
+falla: pero desde el navegador de sus clientes.
